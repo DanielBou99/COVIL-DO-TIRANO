@@ -1,0 +1,182 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body {
+	font-family: 'Verdana', sans-serif;
+}
+
+.navbar {
+	padding: 2.5rem 1rem;
+	font-weight: 500;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.navbar-brand img {
+	height: 1.5rem;
+	margin-right: 0.5rem;
+	margin-top: -0.5rem;
+}
+
+.navbar .navbar-nav .nav-link {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.navbar .side {
+	width: 25%;
+}
+
+.navbar .side.last {
+	text-align: right;
+}
+
+.headroom {
+    will-change: transform;
+    transition: all 200ms linear;
+}
+
+.headroom--not-top {
+	background-color: rgba(34,36,40,0.95);
+	backdrop-filter: blur(2rem);
+    padding: 1rem;
+}
+
+.hero {
+	background-color: #121418;
+	background-image: linear-gradient(45deg, #121418, #222428);
+	color: #fff;
+	background-repeat: no-repeat;
+	padding-top: 12rem;
+	padding-bottom: 4rem;
+}
+
+.hero h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 3.5rem;
+	margin-bottom: 4rem;
+}
+
+.hero .form-control {
+	background-color: rgba(255,255,255,0.1);
+	background-image: url(../image/chevron-down-solid.svg);
+	background-size: 0.75rem;
+	background-repeat: no-repeat;
+	background-position: calc(100% - 1.5rem) center;
+	border-color: rgba(255,255,255,0.1);
+	color: #fff;
+	border-radius: 0.5rem;
+	padding: 1rem 1.5rem;
+	margin-right: 0.5rem;
+}
+
+option {
+	color: black;
+}
+
+
+.table>:not(caption)>*>* {
+	padding: 1rem 0.5rem;
+}
+
+.table small {
+	opacity: 0.8;
+}
+
+
+.btn-dc {
+	background-color: #4A67CB;
+	border-color: #4A67CB;
+	color: #fff;
+}
+
+
+h2 {
+	font-weight: 700;
+}
+
+.result {
+	padding: 4rem 0;
+	text-align: center;
+}
+
+tbody{
+	font-size: 0.9rem;
+	padding: 1rem 0.5rem;
+}
+
+.winner {
+	background-image: linear-gradient(to bottom, rgba(34,36,40,0.05), rgba(34,36,40,0.0));
+	padding: 4rem 0;
+	text-align: center;
+}
+
+.winner img {
+	width: 6rem;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+
+.winner small {
+	opacity: 0.8;
+}
+
+
+
+footer {
+	background-color: #121418;
+	background-image: linear-gradient(45deg, #121418, #222428);
+	color: #fff;
+	padding: 3rem 0;
+}
+
+footer .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .logo {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+footer .logo img {
+	height: 1.5rem;
+	margin-right: 0.5rem;
+}
+
+footer a,
+footer a:hover {
+	color: #fff;
+}
+
+
+.btn {
+	font-weight: 700;
+	padding: 0.5rem 1.5rem;
+	border-radius: 0.5rem;
+}
+
+.previousPage{
+	font-size: 30px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.nextPage{
+	font-size: 30px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+
+.disabled {
+	pointer-events: none;
+	opacity: 0.3;
+}

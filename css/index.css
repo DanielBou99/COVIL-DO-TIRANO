@@ -1,0 +1,11 @@
+.form-select {
+    width: 80%;
+    height: 100%;
+}
+
+.btn {
+    width: 80%;
+    height: 100%;
+    background-color: #0d6efd;
+    color: white;
+}
